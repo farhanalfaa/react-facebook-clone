@@ -1,0 +1,28 @@
+.sponsor {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.sponsor:hover {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.sponsor > img {
+  width: 100px;
+  border-radius: 15px;
+}
+
+.sponsor__desc {
+  margin-left: 20px;
+}
+
+.sponsor__desc > h4 {
+}
+
+.sponsor__desc > p {
+  font-size: small;
+  color: gray;
+}

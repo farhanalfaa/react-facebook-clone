@@ -1,0 +1,24 @@
+.widgets {
+  width: 500px;
+  padding: 25px 10px;
+  flex: 0.33;
+}
+
+.widget__top {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.widgets h2 {
+  padding-left: 10px;
+}
+
+.widget__bottom {
+  display: flex;
+  align-items: center;
+}
+
+.widget__contact {
+  font-size: medium;
+}
